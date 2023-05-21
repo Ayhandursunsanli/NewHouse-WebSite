@@ -1,0 +1,165 @@
+$colorgreen: #96FF00 
+$colorred: #FF0000
+$colorblack: #141414 
+$colorwhite: #FFFFFF 
+$background-wrapperone: '/img/blob-haikei (3).svg'
+$background-about: '/img/abstract-dark-background-with-flowing-colouful-waves.jpg'
+// $head-font-style
+$head-font-size: 3rem
+
+.btn-primary
+    padding-top: .8rem
+    padding-bottom: .8rem
+    padding-left: 2rem
+    padding-right: 2rem
+    background-color: $colorblack
+    border: none !important
+    color: $colorwhite
+    &:hover
+        background-color: $colorgreen
+
+*
+    font-family: 'Jost', sans-serif
+    font-family: 'Ubuntu', sans-serif
+
+// .bg-dark
+//     background-color: $colorblack !important
+// .text-bg-dark
+//     background-color: $colorblack !important
+//     a
+//         color: $colorwhite !important
+
+ul
+    margin: 0
+    li
+        list-style-type: none
+
+
+.navbar
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px
+    background: rgb(0,0,0) !important
+    background: linear-gradient(90deg, rgba(0,0,0,1) 49%, rgba(255,0,0,0.18539915966386555) 100%) !important
+    a
+        text-decoration: none
+        color: $colorwhite !important
+        font-weight: 300 !important
+        font-size: 14px
+    .navbar-collapse
+        .navbar-nav
+            .nav-item
+                //hover gelecek
+            .dropdown-menu
+                box-shadow: none !important
+                border: none !important
+                background: rgb(0,0,0) !important
+                background: linear-gradient(90deg, rgba(0,0,0,1) 49%, rgb(71, 0, 0) 100%) !important
+                li
+                    margin-top: .5rem
+                    a
+                        &:hover
+                            background-color: $colorwhite !important
+                            color: black !important
+
+.offcanvas
+    .offcanvas-header
+        background: rgb(0,0,0) !important
+        background: linear-gradient(90deg, rgba(0,0,0,1) 49%, rgba(255,0,0,0.18539915966386555) 100%) !important
+    .offcanvas-body
+        background: rgb(0,0,0) !important
+        background: linear-gradient(90deg, rgba(0,0,0,1) 49%, rgba(255,0,0,0.18539915966386555) 100%) !important
+        a
+            text-decoration: none
+            color: $colorwhite !important
+            font-weight: 300 !important
+            font-size: 14px
+
+header
+    .carousel
+        .carousel-inner
+            .carousel-item
+                position: relative
+                display: inline-block
+                &::after
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    background: linear-gradient(to right, #00000099, #91131333)
+                    pointer-events: none
+                    opacity: 1
+                img
+                    display: block
+                    width: 100%
+                    height: 100%
+                    object-fit: cover
+                    object-position: center
+                video
+                    display: block
+                    width: 100%
+                    height: 100vh
+                    object-fit: cover
+                    object-position: center
+                    
+                .text-section
+                    display: flex
+                    flex-direction: column
+                    gap: 1rem
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%, -50%)
+                    z-index: 1
+                    h3
+                        font-size: 30px !important
+                        color: $colorwhite !important
+                        font-family: 'Bruno Ace SC', cursive
+                    p 
+                        font-size: 20px !important
+                        color: $colorwhite !important
+
+.program
+    background-color: $colorblack
+    h2
+        font-family: 'Bruno Ace SC', cursive
+    .card
+        top: -20px
+        background: rgb(0,0,0) !important
+        background: linear-gradient(90deg, rgba(0,0,0,1) 49%, rgba(255,0,0,0.18539915966386555) 100%) !important
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+        
+        color: white
+        border: 1px solid $colorblack
+        p
+            font-weight: lighter
+            font-style: italic
+        a
+            text-decoration: none
+            color: $colorwhite
+            border-bottom: 1px solid white
+            padding-bottom: 5px
+
+.wrapperone
+    background: url($background-wrapperone)
+    background-position: center
+    background-size: contain
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100vh
+    .section-head
+        font-size: $head-font-size
+    p
+        font-size: 1.5rem
+        font-weight: 400
+        width: 737px
+        line-height: 2
+        margin: 30px auto 0
+.about
+    background: url($background-about)
+    background-position: center
+    background-size: contain
+    background-size: cover
+    background-repeat: no-repeat
+    height: 100vh
+    
