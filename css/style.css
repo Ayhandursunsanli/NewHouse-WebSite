@@ -117,10 +117,18 @@ header .carousel .carousel-inner .carousel-item .text-section p {
 }
 
 .program {
-  background-color: #141414;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background: url("/img/2343.jpg"), linear-gradient(90deg, rgb(0, 0, 0) 49%, rgba(255, 0, 0, 0.1853991597) 100%) !important;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .program h2 {
-  font-family: "Bruno Ace SC", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  color: white;
 }
 .program .card {
   top: -20px;
@@ -142,12 +150,13 @@ header .carousel .carousel-inner .carousel-item .text-section p {
 }
 
 .wrapperone {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background: url("/img/blob-haikei (3).svg");
   background-position: center;
   background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 .wrapperone .section-head {
   font-size: 3rem;
@@ -155,9 +164,8 @@ header .carousel .carousel-inner .carousel-item .text-section p {
 .wrapperone p {
   font-size: 1.5rem;
   font-weight: 400;
-  width: 737px;
+  max-width: 737px;
   line-height: 2;
-  margin: 30px auto 0;
 }
 
 .about {
@@ -214,4 +222,48 @@ header .carousel .carousel-inner .carousel-item .text-section p {
 }
 .mission-vission .divider-custom .divider-custom-line:last-child {
   margin-left: 0.5rem;
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+.about .image-section {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about .image-section img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.8s;
+}
+.about h2 {
+  margin-top: 2rem;
+  font-size: 3rem !important;
+  font-family: "Ubuntu", sans-serif !important;
+  color: #FFFFFF;
+}
+.about p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  max-width: 737px;
+  line-height: 2;
+}
+
+.wrappertwo {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.wrappertwo h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 3rem;
+  color: #141414;
+}
+.wrappertwo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
