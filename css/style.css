@@ -3,12 +3,13 @@
   padding-bottom: 0.8rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  background-color: #141414;
+  background-color: #96FF00;
   border: none !important;
-  color: #FFFFFF;
+  color: #141414;
 }
 .btn-primary:hover {
-  background-color: #96FF00;
+  background-color: #FFFFFF;
+  color: #141414;
 }
 
 * {
@@ -116,7 +117,7 @@ header .carousel .carousel-inner .carousel-item .text-section p {
   color: #FFFFFF !important;
 }
 
-.program {
+.education {
   padding-top: 10rem;
   padding-bottom: 10rem;
   background: url("/img/2343.jpg"), linear-gradient(90deg, rgb(0, 0, 0) 49%, rgba(255, 0, 0, 0.1853991597) 100%) !important;
@@ -125,12 +126,12 @@ header .carousel .carousel-inner .carousel-item .text-section p {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.program h2 {
+.education h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 3rem;
   color: white;
 }
-.program .card {
+.education .card {
   top: -20px;
   background: rgb(0, 0, 0) !important;
   background: linear-gradient(90deg, rgb(0, 0, 0) 49%, rgba(255, 0, 0, 0.1853991597) 100%) !important;
@@ -138,11 +139,11 @@ header .carousel .carousel-inner .carousel-item .text-section p {
   color: white;
   border: 1px solid #141414;
 }
-.program .card p {
+.education .card p {
   font-weight: lighter;
   font-style: italic;
 }
-.program .card a {
+.education .card a {
   text-decoration: none;
   color: #FFFFFF;
   border-bottom: 1px solid white;
@@ -174,7 +175,6 @@ header .carousel .carousel-inner .carousel-item .text-section p {
   background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
@@ -219,6 +219,24 @@ header .carousel .carousel-inner .carousel-item .text-section p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.program {
+  background: url("/img/pexels-derice-jason-fahnkow-1595241.jpg"), linear-gradient(90deg, rgba(0, 0, 0, 0.1176470588) 49%, rgba(255, 0, 0, 0.053) 100%);
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.program h2 {
+  font-size: 3rem !important;
+  font-family: "Ubuntu", sans-serif !important;
 }
 
 .about-section {
